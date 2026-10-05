@@ -34,23 +34,3 @@ The catalog consists of 10 initial movies encoded with 5 binary genre attributes
 5. **Scoring**: Compute preference scores across the full movie catalog using dot-product multiplication.
 6. **Filtering**: Exclude movies already present in the user's rating history.
 7. **Ranking**: Sort candidate movies by recommendation score to output the Top-N recommendations.
-
-## Usage
-To run the notebook locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/DSA4060-Week3.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd DSA4060-Week3
-   ```
-3. Open and run the Jupyter Notebook:
-   ```bash
-   jupyter notebook content_based_lab.ipynb
-   ```
-
-## Dependencies
-- Python 3.x
-- pandas
